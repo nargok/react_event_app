@@ -3,9 +3,17 @@ import PropTypes from "prop-types"
 class EventApplication extends React.Component {
   render () {
     return (
-      <React.Fragment>
-        Greeting: {this.props.greeting}
-      </React.Fragment>
+        <div className="container">
+            <div className="jumbotron">
+              <h1>ReactJS Tutorial</h1>
+              <p>by your name </p>
+            </div>
+            <div className="row">
+                <div className="col-md-12">
+                  {/*<EventTable />*/}
+                </div>
+            </div>
+        </div>
     );
   }
 }
