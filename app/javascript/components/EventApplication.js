@@ -1,5 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import EventTable from './EventTable'
+
 class EventApplication extends React.Component {
   render () {
     return (
@@ -10,7 +12,7 @@ class EventApplication extends React.Component {
             </div>
             <div className="row">
                 <div className="col-md-12">
-                  {/*<EventTable />*/}
+                  <EventTable />
                 </div>
             </div>
         </div>
